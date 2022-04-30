@@ -23,3 +23,4 @@ NOTE: Sometimes you may need to also remove the cache folders in /var/tmp by iss
 ```bash
 root@bt:~# rm -rf /var/tmp/kdecache-*
 ```
+# well complete This soon
