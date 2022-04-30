@@ -15,3 +15,11 @@ In rare occasions (such as after a VMware tools install, or when using unsupport
 ```bash
 root@bt:~# dpkg-reconfigure xserver-xorg
 ```
+ If you are using Backtrack 5 on x64 with KDE you should try the following: 
+```bash
+root@bt:~# rm /root/.kde/cache-*
+```
+NOTE: Sometimes you may need to also remove the cache folders in /var/tmp by issuing the following command: 
+```bash
+root@bt:~# rm -rf /var/tmp/kdecache-*
+```
